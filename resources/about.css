@@ -1,0 +1,3 @@
+.grid.no-divider .g-col-6 {
+  border-right: none; /* Elimina la línea divisoria */
+}
