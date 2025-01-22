@@ -1,0 +1,21 @@
+---
+title: "Contact Information"
+format: html
+about:
+  template: solana
+  image: ../Logo_web.png
+  id: hero-heading
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/a_arredondoc
+    - icon: github
+      text: GitHub
+      href: https://github.com/andrespan
+---
+
+You can find me online or reach out via e-mail:
+
+- E-mail: [andres.arredondoc@comunidad.unam.mx](mailto:andres.arredondoc@comunidad.unam.mx)
+- E-mail: [andresabstract@gmail.com](mailto:andresabstract@gmail.com)
+- Professional License: [14665861](https://www.cedulaprofesional.sep.gob.mx/cedula/indexAvanzada.action?idCedula=14665861&idProfesionista=14738405&token=85974A43F631E7104B10EFBE32054FADFE796841)

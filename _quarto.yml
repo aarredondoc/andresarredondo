@@ -1,0 +1,35 @@
+project:
+  type: website
+
+website:
+  navbar:
+    title: "Andrés Arredondo"
+    logo: Logo_web.png
+    right:
+
+      - text: About
+        href: about.qmd
+        aria-label: "About Me"
+      - text: Blog
+        aria-label: "Bioinforming"
+        href: blog/index.qmd
+      - text: Projects
+        aria-label: "Project Portfolio"
+        href: projects/index.qmd
+      - text: Contact
+        aria-label: "Contact"
+        href: contact/index.qmd
+    tools:
+      - icon: github
+        href: https://github.com/andrespan/andresarredondo.git
+      - icon: twitter
+        href: https://x.com/a_arredondoc
+
+format:
+  html:
+    theme: theme.scss
+
+editor: visual
+
+
+

@@ -1,0 +1,121 @@
+---
+title: "Andrés Arredondo Cruz"
+subtitle: "Agri-genomics BSc"
+about:
+  template: trestles
+  image: foto2.png
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com
+    - icon: github
+      text: Github
+      href: https://github.com
+  image-width: 14em
+  image-shape: rounded
+  id: hero-heading
+listing: 
+  - id: blog
+    contents: 
+      - "/blog/*/*.qmd"
+      - "/blog/*/*.markdown"
+    sort: date desc
+    type: grid
+    grid-columns: 1
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    fields: [title, subtitle, image]
+    max-items: 1
+    image-height: "200"
+  - id: project
+    contents: 
+      - "/projects/*/*.qmd"
+      - "/projects/*/*.markdown"
+    sort: date desc
+    type: grid
+    grid-columns: 1
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    fields: [title, subtitle, image]
+    max-items: 1
+    image-height: "200"
+resources:
+  - /resources/about.css
+---
+
+::: {#hero-heading}
+## I'm happy you're here!
+
+Thanks for stopping by.
+
+I am a Bachelor in Agrogenomic Sciences with experience in data analysis, particularly biological sequencing data. I am currently a fellow at C3 Idea, where I contribute to projects involving application development for the Virtual Mathematics Museum (MUMAT) at UNAM.
+
+I enjoy working with R as a programming language, especially for data analysis and designing tools such as web pages. I also use Bash for scripting bioinformatics pipelines.
+
+<div style="text-align: left; margin-top: 20px;">
+  <a href="Andres_cv.pdf" class="btn btn-primary" download>
+     Download My CV
+  </a>
+</div>
+
+:::
+
+#### About me
+
+::: {.grid}
+
+::: {.g-col-6 #about-me-1}
+
+
+My main interests lie in microbiology, microbiomes, and how they connect through metagenomics and biostatistics. I am the developer of an R package called Metaevomining, designed for genomic mining.
+
+I am passionate about microbial diversity, data analysis, and building biological databases. Beyond research, I enjoy contributing to science communication, agriculture, and education, as well as organizing bioinformatics workshops with RSG Mexico.
+
+#### Education
+
+**Escuela Nacional de Estudios Superiores León, UNAM** \| León, Guanajuato\
+B.Sc. in Agrogenomic Sciences \| Graduated: 2020
+
+:::
+
+::: {.g-col-6 #about-me-2}
+
+
+#### Work Experience
+
+**C3** \| _Virtual_\
+Professional Practices\
+**jan-2024** to **present**\
+- Development of an app for The Mathematics Museum [MUMAT](https://mumat.matcuer.unam.mx/#intro).  
+- Content reviewer for media.  
+  
+**Betterlab** \| _Irapuato, Guanajuato_\
+Metagenomic Data Analyst\
+**may-2022** to **may-2023**\
+- Implementation of software for metagenomic data analysis.  
+- Conducted courses on DNA extraction and PCR.  
+- Developed a protocol for the discovery of natural products.
+:::
+
+
+<!-- hero-heading -->
+::: {.g-col-6 #about-me-3}
+## Lately ...
+
+::: {.g-col-6 #about-me-4}
+### Projects
+::: {#project}
+:::
+
+[See all &rarr;](/projects){.about-links .subtitle}
+
+::: {.g-col-6 #about-me-3}
+### Blog
+::: {#blog}
+:::
+[See all &rarr;](/blog){.about-links .subtitle}
+:::
+
+

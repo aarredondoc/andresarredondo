@@ -1,0 +1,139 @@
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Oleo+Script:wght@400;700&family=Playfair+Display:wght@400;700&family=Red+Hat+Text:wght@400;700&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+// Colors
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+/* Custom Colors */
+$primary:                    #a47864; /* Color principal */
+$secondary:                  #6c4f3e; /* Un tono más oscuro complementario */
+$background-color:           #f9f5f3; /* Fondo claro */
+$text-color:                 #2e2e2e; /* Texto oscuro */
+$link-color:                 $primary;
+$link-hover-color:           black;
+$border-color:               lighten($primary, 20%);
+$code-background-color:      #f4ece8; /* Fondo para bloques de código */
+
+// Button styles
+$button-primary-bg:          $primary;
+$button-primary-color:       $primary;
+$button-primary-border:      $primary;
+$button-primary-hover-bg:    darken($primary, 5%);
+$button-primary-hover-color: $secondary;
+
+// Additional Styles
+$navbar-bg-color:            $background-color;
+$navbar-text-color:          $primary;
+$navbar-hover-bg-color:      $background-color;
+$footer-bg-color:            lighten($primary, 40%);
+$footer-text-color:          #2e2e2e;
+
+/*-- Define Bootstrap color variables --*/
+// The page text color
+$body-color:                 $gray-800;
+// code block bg
+$code-block-bg:              $code-background-color;
+
+/*-- Define Bootstrap font variables --*/
+// Fonts
+$font-family-base:           "Red Hat Text", "Source Sans Pro", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-headings:       "Source Sans Pro";
+
+// The monospace font-family for the page
+$font-family-monospace:      SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+
+/*-- scss:rules --*/
+
+#title-block-header.quarto-title-block.default .quarto-title .title {
+    margin-bottom: 0;
+    color: $text-color; /* Asegúrate de definir el color o usar el valor deseado */
+    font-family: 'Adamina', sans-serif; /* Usamos Adamina, con un fallback en sans-serif */
+    font-size: 2.5rem;
+    transition: color 0.3s ease; 
+}
+
+.navbar-brand img {
+  height: 100px; // Ajusta el tamaño según lo que necesites
+  width: auto;  // Mantén la proporción
+}
+.navbar-brand {
+    margin-bottom: 0;
+    color: $text-color;
+    font-family: 'Adamina', sans-serif;
+    font-size: 1rem;
+}
+
+/* Navbar */
+.navbar {
+    background-color: $navbar-bg-color;
+    color: $navbar-text-color;
+}
+.nav-link {
+    color: $navbar-text-color;
+    text-transform: uppercase;
+    font-family: $font-family-base;
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+    &:hover {
+        color: $link-hover-color;
+        background-color: $navbar-hover-bg-color;
+    }
+}
+
+/* Cambiar color del botón submit */
+.aa-SubmitIcon {
+  fill: $primary; /* Cambia a tu color deseado */
+  transition: fill 0.3s ease; /* Agrega una transición para cambios suaves */
+}
+
+.aa-SubmitIcon:hover {
+  fill:  black; /* Cambia de color al pasar el cursor */
+}
+
+/* Cambiar color de los íconos de Twitter y GitHub */
+.quarto-navbar-tools a.quarto-navigation-tool i {
+  color: $primary; /* Cambia el color inicial de los íconos */
+  transition: color 0.3s ease; /* Transición para un cambio suave */
+}
+
+/* Hover para Twitter y GitHub */
+.quarto-navbar-tools a.quarto-navigation-tool:hover i {
+  color: black; /* Color al pasar el cursor */
+}
+
+/* Cambiar el color completo del enlace (si es necesario) */
+.quarto-navbar-tools a.quarto-navigation-tool {
+  background-color: transparent; /* Fondo transparente */
+  color: $primary; /* Color inicial */
+}
+
+.quarto-navbar-tools a.quarto-navigation-tool:hover {
+  background-color:$background-color; /* Fondo al pasar el cursor */
+  color: black; /* Color del enlace al pasar el cursor */
+}
+
+
+
+/* Footer */
+footer {
+    background-color: $footer-bg-color;
+    color: $footer-text-color;
+}
+/* Body */
+body {
+  background: $background-color;
+}
+
+.grid.no-divider .g-col-6 {
+  border-right: none; /* Elimina la línea divisoria */
+}

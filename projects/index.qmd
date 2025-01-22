@@ -1,0 +1,57 @@
+---
+title: "Projects"
+author: ""
+comments: false
+citation: false
+description: |
+  This portfolio contains projects I have participated in, as well as free educational materials from talks, courses, workshops, and more.
+listing: 
+  contents:
+    - "/*/*.qmd"
+    - "/*/index.markdown"
+    - "/*/index.md"
+  type: grid
+  fields: [title, categories, date, image]
+  sort: "date desc"
+  filter-ui: false
+  image-align: left
+  image-height: 100%
+format: 
+  html: 
+    page-layout: full
+title-block-banner: true # Activa el bloque del título
+header-includes: |
+  <style>
+    /* Centramos el título y la descripción en la parte superior */
+    #title-block-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start; /* Alinea el contenido en la parte superior */
+      align-items: center; /* Centra horizontalmente */
+      padding: 0.5em 0; /* Espaciado alrededor */
+      text-align: center; /* Centra el texto */
+    }
+
+    /* Elimina el color de fondo y bordes del bloque */
+    .quarto-title-banner {
+      background-color: transparent !important;
+    }
+
+    .quarto-title-block .title {
+      font-size: 2.5em;
+      color: #333; /* Color del título */
+      margin: 0.5em 0;
+      font-weight: bold;
+    }
+
+    .description p {
+      font-size: 1.2rem;
+      color: #666; /* Color de la descripción */
+      margin: 2em 0;
+    }
+  </style>
+  <link rel="stylesheet" href="../assets/listing-default.css">
+resources:
+  - ../resources/listing-default.css
+---
+

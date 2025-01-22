@@ -1,0 +1,67 @@
+---
+title: "Magenta: Building a global mangrove database"
+author: "Andrés Arredondo, Erika A. Castañeda"
+format: html
+image: mangrovepic.jpeg
+categories:
+  - Metagenomics
+  - Databases
+---
+<div style="text-align: center;">
+  <img src="mangrovepic.jpeg" alt="figure2" width="400"/>
+</div>
+
+<div align="right">
+  <br>
+  
+### An Integrated and Systematically-Processed _Bioinformatic Tool_ for Microbial Gene Research in Mangrove Ecosystems Worldwide
+  <br>
+</div>
+
+In this article, I will present a project I am currently working on with Erika A. Castañeda López and Dr. Mirna Vázquez Rosas Landa at the Institute of Marine Sciences and Limnology. 
+
+<div align="right">
+  **Institution:**  
+  Institute of Marine Sciences and Limnology (UNAM)  
+<br>
+
+<div align="justify">
+  Mangroves are recognized as **crucial reservoirs of biological diversity** and **highly productive ecosystems**. Numerous global metagenomic studies have emphasized the importance of mangrove microbial communities as integral components of biogeochemical cycles, including photosynthesis, nitrogen fixation, sulfur reduction, and notably carbon transformation. Understanding these processes is essential for tackling significant ecological challenges, such as climate change. **However, there is currently a scarcity of computational tools that facilitate the analysis of these processes and relationships on a global scale**.
+  
+  **MAGENTA** _(or Global Mangrove Gene Catalogue)_ is designed to be a vital **bioinformatic** resource that provides quantitative insights into global shotgun metagenomics of mangrove microbiomes. Its purpose is to generate new hypotheses regarding the abundance, distribution, and metabolic functions of microorganisms within the mangrove ecosystem, thereby deepening our understanding of these complex global systems.
+</div>
+
+---
+
+<br>
+
+## Unique and Non-redundant Global Gene Catalogue
+
+<div align="justify">
+  **MAGENTA** encompasses an integrated and systematically processed catalog of microbial genes from mangrove ecosystems, functioning as a global repository of unique, non-redundant gene information. It utilizes publicly available data from specialized databases, including whole-genome shotgun (WGS) metagenomes from five key habitats of the mangrove microbial community — rhizosphere, seawater, sediment, soil, and wetland — alongside metagenomes collected by our research team from local mangrove environments in Mexico (e.g., Tuxpan, Cd. del Carmen, Cozumel). This comprehensive approach delivers critical insights into local microbial communities while significantly enhancing our understanding of global microbial diversity and the ecological roles these microorganisms play within these vital ecosystems.
+</div>
+
+<br>
+
+<p align="center">
+  <img src="31-10_pipeline.png" alt="Preprocessing pipeline" width="800"/>
+</p>
+
+<br>
+
+## Geography
+
+**MAGENTA** leveraged publicly available metagenomic datasets of mangrove ecosystems sourced from the European Nucleotide Archive. In its analysis, **MAGENTA** systematically excluded incomplete or inconsistent datasets, resulting in **71** pairs of sequencing files derived from seven distinct studies, spanning 12 geographic locations across three countries: China, India, and the United States.
+
+_Link to the Interactive Magenta Datasets Map:_
+<br>
+<div align="center">
+[![Magenta Datasets Information](magenta_datasets_info.png)](https://aarredondoc.github.io/Magenta_map/)
+</div>
+<br>
+
+For more information about the code and data, please visit Erika's repository: 
+<br>
+
+[https://github.com/ErikaCL/Magenta.git](https://github.com/ErikaCL/Magenta.git)
+<br>

@@ -1,0 +1,38 @@
+---
+title: "documentación de funciones en R"
+subtitle: "Documenta las funciones de tus paquetes en R con roxygen2"
+excerpt: "Un tutorial de 20 minutos sobre como usar roxygen2 para documentar"
+date: 2025-01-17
+author: "Andrés Arredondo Cruz"
+featured: true
+draft: false
+tags:
+  - roxygen2
+  - R
+categories:
+  - R
+  - Education
+# layout options: single or single-sidebar
+layout: single
+links:
+- icon: book-open
+  icon_pack: fas
+  name: website
+  url: https://comunidadbioinfo.github.io/cdsb2023/Documentacion_slides_03_sesion5.html#1
+- icon: github
+  icon_pack: fab
+  name: code
+  url: https://github.com/ComunidadBioInfo
+---
+
+<div style="text-align: center"><img src="https://comunidadbioinfo.github.io/cdsb2023/Documentacion_slides_03_sesion5.html#1" alt="" width="75%"/></div>
+
+## Workshop description
+
+Un tutorial de una hora creado para el curso Desarrollo de paqueterías de R/Bioconductor [CDSB2023](https://comunidadbioinfo.github.io/cdsb2024/index.html)
+
+### La documentación es un archivo de ayuda para el usuario
+🙇️ Es la información complementaria que el desarrollador escribe sobre una función y que se accede con ? seguido el nombre de una función actual de un paquete p.ej. ?unafuncion.
+📁 La documentación se almacena como un archivo .Rd ("R documentation) en la carpeta man/.
+🔎 La documentación usa una síntesis especial, que es distinta a la de r y que esta ligeramente basada en LaTeX
+📄 Se puede renderizar como html, pdf o texto sin formato según se necesite.
