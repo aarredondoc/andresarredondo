@@ -1,0 +1,512 @@
+print_programming_languages <- function(cv){
+glue::glue_data(
+cv$programming_languages,
+"<b>Expertise:</b> {expertise} <br><b>Familiarity:</b> {familiarity}"
+) %>% print()
+invisible(cv)
+}
+#' @description Languages
+print_languages <- function(cv){
+glue::glue_data(
+cv$languages,
+" {language} - {level} <br>"
+) %>% print()
+invisible(cv)
+}
+cv_data <- create_CV_object(
+data_location = "https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA/edit?gid=917338460#gid=917338460"
+)
+readr::write_rds(cv_data, 'cached_positions.rds')
+cache_data <- TRUE
+library(tidyverse)
+library(tidyverse)
+source("cv_printing_functions.R")
+cv_data <- create_CV_object(
+data_location = "https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA/edit?gid=917338460#gid=917338460"
+)
+readr::write_rds(cv_data, 'cached_positions.rds')
+cache_data <- TRUE
+# Knit the HTML version
+rmarkdown::render("cv_español.rmd",
+params = list(pdf_mode = FALSE),
+output_file = "Andres_cv.html")
+# Knit the PDF version to temporary html location
+tmp_html_cv_loc <- fs::file_temp(ext = ".html")
+rmarkdown::render("cv_español.rmd",
+params = list(pdf_mode = TRUE),
+output_file = tmp_html_cv_loc)
+source("cv_printing_functions.R")
+cv_data <- create_CV_object(
+data_location = "https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA/edit?gid=917338460#gid=917338460"
+)
+library(tidyverse)
+source("cv_printing_functions.R")
+cv_data <- create_CV_object(
+data_location = "https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA/edit?gid=917338460#gid=917338460"
+)
+readr::write_rds(cv_data, 'cached_positions.rds')
+cv_data <- create_CV_object(
+data_location = "https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA/edit?gid=917338460#gid=917338460"
+)
+cv_data <- create_CV_object(
+data_location = "https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA/edit?gid=917338460#gid=917338460"
+)
+rlang::last_trace()
+cv_data <- create_CV_object(
+data_location = "https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA/edit?gid=917338460#gid=917338460"
+)
+cvx_data <- create_CV_object(
+data_location = "https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA/edit?gid=917338460#gid=917338460"
+)
+rlang::last_trace()
+install.packages("tidyverse")
+library(tidyverse)
+source("cv_printing_functions.R")
+cv_data <- create_CV_object(
+data_location = "https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA/edit?gid=917338460#gid=917338460"
+)
+cv_data <- create_CV_object(
+data_location = "https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA/edit?gid=917338460#gid=917338460"
+)
+cv_data <- create_CV_object(
+data_location = "https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA/edit?gid=917338460#gid=917338460"
+)
+cv_data <- create_CV_object(
+data_location = "https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA/edit?gid=917338460#gid=917338460"
+)
+cv_data <- create_CV_object(
+data_location = "https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA/edit?gid=917338460#gid=917338460"
+)
+rlang::last_trace()
+cv_data <- create_CV_object(
+data_location = "https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA/edit?gid=917338460#gid=917338460"
+)
+rlang::last_trace()
+rlang::last_trace(drop = FALSE)
+cv_data_partial <- create_CV_object(
+data_location = "https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA",
+sheets = c("entries", "language_skills") # Carga solo estas hojas
+)
+library(googlesheets4)
+# Leer cada hoja desde Google Sheets
+entries <- read_sheet("https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA", sheet = "entries")
+language_skills <- read_sheet("https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA", sheet = "language_skills")
+text_blocks <- read_sheet("https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA", sheet = "text_blocks")
+# Inspeccionar los datos
+head(entries)
+head(language_skills)
+head(text_blocks)
+clean_data <- function(data) {
+data %>% mutate(across(everything(), ~ifelse(is.na(.), "N/A", .)))
+}
+# Limpiar las hojas
+entries <- clean_data(entries)
+language_skills <- clean_data(language_skills)
+text_blocks <- clean_data(text_blocks)
+# Inspeccionar los datos
+head(entries)
+head(language_skills)
+head(text_blocks)
+clean_data <- function(data) {
+data %>% mutate(across(everything(), ~ifelse(is.na(.), "N/A", .)))
+}
+names(cv$entries_data)
+head(cv$entries_data)
+#'
+#' @param data_location Path of the spreadsheets holding all your data. This can be
+#'   either a URL to a google sheet with multiple sheets containing the four
+#'   data types or a path to a folder containing four `.csv`s with the necessary
+#'   data.
+#' @param pdf_mode Is the output being rendered into a pdf? Do links need
+#'   to be stripped?
+#' @param sheet_is_publicly_readable If you're using Google Sheets for data,
+#'   is the sheet publicly available? (Makes authorization easier.)
+#' @return A new `CV_Printer` object.
+create_CV_object <- function(data_location,
+pdf_mode = FALSE,
+sheet_is_publicly_readable = TRUE) {
+cv <- list(
+pdf_mode = pdf_mode,
+links = c()
+)
+is_google_sheets_location <- stringr::str_detect(data_location, "docs\\.google\\.com")
+if (is_google_sheets_location) {
+if (sheet_is_publicly_readable) {
+# Deauthorize for public sheets
+googlesheets4::gs4_deauth()
+} else {
+# Configure secrets for private sheets
+options(gargle_oauth_cache = ".secrets")
+}
+read_gsheet <- function(sheet_id) {
+googlesheets4::read_sheet(data_location, sheet = sheet_id, skip = 1, col_types = "c")
+}
+cv$entries_data <- read_gsheet(sheet_id = "entries")
+cv$skills <- read_gsheet(sheet_id = "language_skills")
+cv$text_blocks <- read_gsheet(sheet_id = "text_blocks")
+cv$contact_info <- read_gsheet(sheet_id = "contact_info")
+cv$programming_languages <- read_gsheet(sheet_id = "programming_languages")
+cv$languages <- read_gsheet(sheet_id = "languages")
+} else {
+# Handle CSV input
+cv$entries_data <- readr::read_csv(paste0(data_location, "entries.csv"), skip = 1)
+cv$skills <- readr::read_csv(paste0(data_location, "language_skills.csv"), skip = 1)
+cv$text_blocks <- readr::read_csv(paste0(data_location, "text_blocks.csv"), skip = 1)
+cv$contact_info <- readr::read_csv(paste0(data_location, "contact_info.csv"), skip = 1)
+}
+# Helper functions for parsing and cleaning data
+extract_year <- function(dates) {
+date_year <- stringr::str_extract(dates, "(20|19)[0-9]{2}")
+date_year[is.na(date_year)] <- lubridate::year(lubridate::ymd(Sys.Date())) + 10
+return(date_year)
+}
+parse_dates <- function(dates) {
+date_month <- stringr::str_extract(dates, "(\\w+|\\d+)(?=(\\s|\\/|-)(20|19)[0-9]{2})")
+date_month[is.na(date_month)] <- "1"
+valid_dates <- paste("1", date_month, extract_year(dates), sep = "-")
+valid_dates[is.na(valid_dates)] <- NA
+return(lubridate::dmy(valid_dates))
+}
+# Clean up entries dataframe
+if (!is.null(cv$entries_data)) {
+description_columns <- names(cv$entries_data)[stringr::str_detect(names(cv$entries_data), "^description")]
+if (length(description_columns) > 0) {
+cv$entries_data <- tidyr::unite(
+cv$entries_data,
+cols = all_of(description_columns),
+col = "description_bullets",
+sep = "\n- ",
+na.rm = TRUE
+)
+} else {
+cv$entries_data$description_bullets <- NA
+}
+cv$entries_data <- cv$entries_data %>%
+dplyr::mutate(
+description_bullets = ifelse(description_bullets != "", paste0("- ", description_bullets), ""),
+start = ifelse(start %in% c("NULL", ""), NA, start),
+end = ifelse(end %in% c("NULL", ""), NA, end),
+start_year = extract_year(start),
+end_year = extract_year(end),
+no_start = is.na(start),
+has_start = !no_start,
+no_end = is.na(end),
+has_end = !no_end,
+timeline = dplyr::case_when(
+no_start & no_end ~ "N/A",
+no_start & has_end ~ as.character(end),
+has_start & no_end ~ paste("Current", "-", start),
+TRUE ~ paste(end, "-", start)
+)
+) %>%
+dplyr::arrange(desc(parse_dates(end))) %>%
+dplyr::mutate(across(everything(), ~ifelse(is.na(.), 'N/A', .)))
+}
+return(cv)
+}
+# Remove links from a text block and add to internal list
+sanitize_links <- function(cv, text) {
+if (cv$pdf_mode) {
+link_titles <- stringr::str_extract_all(text, '(?<=\\[).+?(?=\\])')[[1]]
+link_destinations <- stringr::str_extract_all(text, '(?<=\\().+?(?=\\))')[[1]]
+n_links <- length(cv$links)
+n_new_links <- length(link_titles)
+if (n_new_links > 0) {
+cv$links <- c(cv$links, link_destinations)
+link_superscript_mappings <- purrr::set_names(
+paste0("<sup>", (1:n_new_links) + n_links, "</sup>"),
+paste0("(", link_destinations, ")")
+)
+text <- text %>%
+stringr::str_replace_all(stringr::fixed(link_superscript_mappings)) %>%
+stringr::str_replace_all('\\[(.+?)\\]', "\\1")
+}
+}
+return(list(cv = cv, text = text))
+}
+cv_data <- create_CV_object(
+data_location = "https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA"
+)
+cv_data <- create_CV_object(
+data_location = "https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA"
+)
+rlang::last_trace()
+rlang::last_trace(drop = FALSE)
+cv_data <- create_CV_object(
+data_location = "https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA"
+)
+create_CV_object <- function(data_location, pdf_mode = FALSE, sheet_is_publicly_readable = TRUE) {
+cv <- list(pdf_mode = pdf_mode, links = c())
+is_google_sheets_location <- stringr::str_detect(data_location, "docs\\.google\\.com")
+if (is_google_sheets_location) {
+if (sheet_is_publicly_readable) {
+googlesheets4::gs4_deauth()
+}
+read_gsheet <- function(sheet_id) {
+googlesheets4::read_sheet(data_location, sheet = sheet_id, skip = 1, col_types = "c")
+}
+cv$entries_data <- read_gsheet(sheet_id = "entries")
+} else {
+cv$entries_data <- readr::read_csv(paste0(data_location, "entries.csv"), skip = 1)
+}
+# Validar y limpiar datos
+if (!"start" %in% names(cv$entries_data)) {
+cv$entries_data$start <- NA
+}
+if (!"end" %in% names(cv$entries_data)) {
+cv$entries_data$end <- NA
+}
+# Convertir a caracteres
+cv$entries_data <- cv$entries_data %>%
+dplyr::mutate(
+start = as.character(start),
+end = as.character(end),
+start = ifelse(is.na(start) | start %in% c("NULL", ""), NA, start),
+end = ifelse(is.na(end) | end %in% c("NULL", ""), NA, end)
+)
+# Manejar columnas `description_*`
+description_columns <- names(cv$entries_data)[stringr::str_detect(names(cv$entries_data), "^description")]
+if (length(description_columns) > 0) {
+cv$entries_data <- tidyr::unite(
+cv$entries_data,
+cols = all_of(description_columns),
+col = "description_bullets",
+sep = "\n- ",
+na.rm = TRUE
+)
+} else {
+cv$entries_data$description_bullets <- NA
+}
+# Extraer años y manejar fechas
+extract_year <- function(dates) {
+date_year <- stringr::str_extract(dates, "(20|19)[0-9]{2}")
+date_year[is.na(date_year)] <- lubridate::year(lubridate::ymd(Sys.Date())) + 10
+return(date_year)
+}
+parse_dates <- function(dates) {
+date_month <- stringr::str_extract(dates, "(\\w+|\\d+)(?=(\\s|\\/|-)(20|19)[0-9]{2})")
+date_month[is.na(date_month)] <- "1"
+valid_dates <- paste("1", date_month, extract_year(dates), sep = "-")
+valid_dates[is.na(valid_dates)] <- NA
+return(lubridate::dmy(valid_dates))
+}
+# Procesar `entries_data`
+cv$entries_data <- cv$entries_data %>%
+dplyr::mutate(
+start_year = extract_year(start),
+end_year = extract_year(end),
+no_start = is.na(start),
+has_start = !no_start,
+no_end = is.na(end),
+has_end = !no_end,
+timeline = dplyr::case_when(
+no_start & no_end ~ "N/A",
+no_start & has_end ~ as.character(end),
+has_start & no_end ~ paste("Current", "-", start),
+TRUE ~ paste(end, "-", start)
+)
+) %>%
+dplyr::arrange(desc(parse_dates(end))) %>%
+dplyr::mutate(across(everything(), ~ifelse(is.na(.), 'N/A', .)))
+return(cv)
+}
+cv_data <- create_CV_object(
+data_location = "https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA"
+)
+library(googlesheets4)
+# Autenticación (si es necesario)
+googlesheets4::gs4_deauth()
+# Lee los datos de la hoja de Google Sheets
+data_location <- "https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA"
+# Leer las pestañas específicas
+entries_data <- googlesheets4::read_sheet(data_location, sheet = "entries")
+# Verificar los primeros registros
+head(entries_data)
+# Verificar las fechas
+summary(entries_data$start)
+summary(entries_data$end)
+library(glue)
+library(icon)
+library(tidyverse)
+source("cv_printing_functions.R")
+cv_data <- create_CV_object(
+data_location = "https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA/edit?gid=917338460#gid=917338460"
+)
+readr::write_rds(cv_data, 'cached_positions.rds')
+cache_data <- TRUE
+# Knit the HTML version
+rmarkdown::render("cv_español.rmd",
+params = list(pdf_mode = FALSE),
+output_file = "Andres_cv.html")
+print(str(CV))
+print(str(CV$contact_info))
+knitr::opts_chunk$set(
+results='asis',
+echo = FALSE
+)
+library(magrittr) # For the pipe
+source("cv_printing_functions.r")
+CV <- create_CV_object(
+data_location = "https://docs.google.com/spreadsheets/d/1NqKZJyykZ1W_qAy8skSY9FH5Vh9ikSiUOuvYSTz_gkc/edit?usp=sharing",
+pdf_mode = params$pdf_mode
+)
+library(glue)
+library(dplyr)
+library(dplyr)
+function (package, help, pos = 2, lib.loc = NULL, character.only = FALSE,
+logical.return = FALSE, warn.conflicts, quietly = FALSE,
+verbose = getOption("verbose"), mask.ok, exclude, include.only,
+attach.required = missing(include.only))
+library(glue)
+library(dplyr)
+# Datos de ejemplo
+cv <- list(
+contact_info = data.frame(
+icon = c("envelope", "envelope", "github"),
+contact = c("andres.arredondoc@comunidad.unam.mx",
+"andresabstract@gmail.com",
+"[andrespan](https://github.com/andrespan/MetaEvoMining.git)")
+)
+)
+# Función
+print_contact_info <- function(cv){
+glue::glue_data(
+cv$contact_info,
+"- <i class='fa fa-{icon}'></i> {contact}"
+) %>% print()
+invisible(cv)
+}
+# Llamar a la función con los datos de ejemplo
+print_contact_info(cv)
+install.packages("rmarkdown")
+remotes::install_github('rstudio/pagedown')
+install.packages("devtools")
+devtools::install_github("nstrayer/datadrivencv")
+View(create_CV_object)
+View(create_CV_object)
+View(create_CV_object)
+View(create_CV_object)
+library(googlesheets4)
+# Reemplaza el enlace con el URL de tu hoja de cálculo
+sheet_url <- "https://docs.google.com/spreadsheets/d/tu_id_de_hoja"
+# Leer los datos de la hoja
+data <- read_sheet(sheet_url)
+# Leer los datos de la hoja
+data <- read_sheet(sheet_url)
+str(data)
+head(data)
+library(datadrivencv)
+# Cargar los paquetes necesarios
+library(googlesheets4)
+library(readr)
+library(dplyr)
+library(tidyr)
+library(lubridate)
+library(purrr)
+library(glue)
+print(CV)
+rmarkdown::render("tu_archivo.Rmd", output_format = "pagedown::html_resume")
+rmarkdown::render("cv_español.rmd", output_format = "pagedown::html_resume")
+print(CV$text_blocks)
+cv$text_blocks <- googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA", sheet = "text_blocks")
+print(cv$text_blocks)
+str(CV$skills)
+git clone "https://github.com/nselem/2025-01-20-ccm.git"
+git clone <"https://github.com/nselem/2025-01-20-ccm.git">
+git clone <https://github.com/nselem/2025-01-20-ccm.git>
+git clone https://github.com/nselem/2025-01-20-ccm.git
+setwd("~/Documents/CV")
+View(entries)
+View(CV)
+library(tidyverse)
+source("cv_printing_functions.R")
+cv_data <- create_CV_object(
+data_location = "https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA/edit?gid=917338460#gid=917338460"
+)
+readr::write_rds(cv_data, 'cached_positions.rds')
+cache_data <- TRUE
+# Knit the HTML version
+rmarkdown::render("cv_español.rmd",
+params = list(pdf_mode = FALSE),
+output_file = "Andres_cv.html")
+# Knit the PDF version to temporary html location
+tmp_html_cv_loc <- fs::file_temp(ext = ".html")
+rmarkdown::render("cv_español.rmd",
+params = list(pdf_mode = TRUE),
+output_file = tmp_html_cv_loc)
+# Convert to PDF using Pagedown
+pagedown::chrome_print(input = tmp_html_cv_loc,
+output = "Andres_cv.pdf")
+# Convert to PDF using Pagedown
+pagedown::chrome_print(input = tmp_html_cv_loc,
+output = "Andres_cv.pdf")
+# Convert to PDF using Pagedown
+pagedown::chrome_print(input = tmp_html_cv_loc,
+output = "Andres_cv.pdf")
+# Convert to PDF using Pagedown
+pagedown::chrome_print(input = tmp_html_cv_loc,
+output = "Andres_cv.pdf")
+View(print_text_block)
+cv_data <- create_CV_object(
+data_location = "https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA/edit?gid=917338460#gid=917338460"
+)
+readr::write_rds(cv_data, 'cached_positions.rds')
+cache_data <- TRUE
+# Knit the HTML version
+rmarkdown::render("cv_español.rmd",
+params = list(pdf_mode = FALSE),
+output_file = "Andres_cv.html")
+# Knit the PDF version to temporary html location
+tmp_html_cv_loc <- fs::file_temp(ext = ".html")
+rmarkdown::render("cv_español.rmd",
+params = list(pdf_mode = TRUE),
+output_file = tmp_html_cv_loc)
+# Convert to PDF using Pagedown
+pagedown::chrome_print(input = tmp_html_cv_loc,
+output = "Andres_cv.pdf")
+library(tidyverse)
+source("cv_printing_functions.R")
+cv_data <- create_CV_object(
+data_location = "https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA/edit?gid=917338460#gid=917338460"
+)
+readr::write_rds(cv_data, 'cached_positions.rds')
+cache_data <- TRUE
+# Knit the HTML version
+rmarkdown::render("cv_español.rmd",
+params = list(pdf_mode = FALSE),
+output_file = "Andres_cv.html")
+# Knit the PDF version to temporary html location
+tmp_html_cv_loc <- fs::file_temp(ext = ".html")
+rmarkdown::render("cv_español.rmd",
+params = list(pdf_mode = TRUE),
+output_file = tmp_html_cv_loc)
+# Convert to PDF using Pagedown
+pagedown::chrome_print(input = tmp_html_cv_loc,
+output = "Andres_cv.pdf")
+View(text_blocks)
+View(text_blocks)
+source("cv_printing_functions.R")
+cv_data <- create_CV_object(
+data_location = "https://docs.google.com/spreadsheets/d/1LUcYp-lrkJ0ey0Vtb6hMuHp9TUn-o34REE1zOrps4oA/edit?gid=917338460#gid=917338460"
+)
+readr::write_rds(cv_data, 'cached_positions.rds')
+cache_data <- TRUE
+# Knit the HTML version
+rmarkdown::render("cv_español.rmd",
+params = list(pdf_mode = FALSE),
+output_file = "Andres_cv.html")
+# Knit the PDF version to temporary html location
+tmp_html_cv_loc <- fs::file_temp(ext = ".html")
+rmarkdown::render("cv_español.rmd",
+params = list(pdf_mode = TRUE),
+output_file = tmp_html_cv_loc)
+# Convert to PDF using Pagedown
+pagedown::chrome_print(input = tmp_html_cv_loc,
+output = "Andres_cv.pdf")
+setwd("~/Desktop/github_projects/andreswebsite_quarto")
+setwd("~/Documents/CV")
+setwd("~/Desktop/github_projects/andreswebsite_quarto")
+---
+title: "Andrés Arredondo"
+git remote set-url origin https://github.com/aarredondoc/andresarredondo.git
+git remote set-url origin https://github.com/aarredondoc/andresarredondo.git
