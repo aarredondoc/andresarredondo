@@ -1,0 +1,122 @@
+---
+title: "Betterlab: Bioinformatics Internship in Agricultural Biotechnology"
+author: "Andrés Arredondo"
+format: html
+image: betterlab_main.jpeg
+categories:
+  - Metagenomics
+  - Genomics
+  - Biotechnology
+---
+
+::: {style="text-align: center;"}
+<img src="betterlab_main.png" alt="Betterlab project" width="400"/>
+:::
+
+::: {align="right"}
+<br>
+
+### Shotgun Sequencing Analysis and Genomic Mining for *Biotechnological Metabolites* in Agricultural Environments
+
+<br>
+:::
+
+In my final year of university, I held an internship position at the startup company Betterlab, where I quickly advanced to the role of bioinformatician. I was tasked with analyzing shotgun sequencing results from environmental crop samples and conducting genomic mining to identify metabolites of biotechnological interest.
+
+:::::::::::: {align="right"}
+**Institution:**\
+Betterlab - Parque de Innovación Agrobioteg\
+Irapuato, Guanajuato, Mexico\
+**Year:** 2022 <br>
+
+::: {align="justify"}
+Agricultural biotechnology demands robust bioinformatic approaches to unlock the potential of microbial communities associated with crops. **Understanding the metabolic capabilities of these microorganisms is essential for developing sustainable agricultural solutions**, including biofertilizers, biocontrol agents, and plant growth promoters. However, the complexity of metagenomic data requires sophisticated computational pipelines and analytical expertise.
+
+During my time at **Betterlab**, I developed advanced competencies in **R programming**, including data manipulation, statistical analysis, and visualization of complex datasets. Additionally, I standardized a **pipeline for assembling bacterial genomes from metagenomic samples**, enabling the identification of novel metabolites with biotechnological applications in agriculture.
+:::
+
+------------------------------------------------------------------------
+
+<br>
+
+## Project Gallery
+
+:::::: {style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; gap: 20px;"}
+::: {style="text-align: center;"}
+<img src="betterlab_photo1.jpg" alt="Laboratory work" width="300"/>
+
+<p style="margin-top: 10px; font-style: italic;">
+
+Bioinformatics analysis
+
+</p>
+:::
+
+::: {style="text-align: center;"}
+<img src="betterlab_photo2.jpg" alt="Bioinformatics analysis" width="300"/>
+
+<p style="margin-top: 10px; font-style: italic;">
+
+Laboratory work
+
+</p>
+:::
+
+::: {style="text-align: center;"}
+<img src="betterlab_photo3.jpg" alt="Team collaboration" width="300"/>
+
+<p style="margin-top: 10px; font-style: italic;">
+
+Greenhouse work
+
+</p>
+:::
+::::::
+
+<br>
+
+## Key Objectives
+
+::: {align="justify"}
+The primary objectives of this internship were:
+
+-   **Metagenomic Analysis:** Process and analyze shotgun sequencing data from environmental crop samples to characterize microbial communities.
+-   **Genomic Mining:** Identify genes and metabolic pathways associated with biotechnologically relevant compounds, such as antimicrobials, plant growth hormones, and stress tolerance factors.
+-   **Pipeline Development:** Standardize and document a reproducible bioinformatic pipeline for bacterial genome assembly from complex metagenomic datasets.
+-   **Data Visualization:** Create comprehensive visualizations to communicate findings to both technical and non-technical stakeholders.
+:::
+
+<br>
+
+## Technical Skills Developed
+
+::: {align="justify"}
+Throughout this project, I enhanced my proficiency in:
+
+-   **R Programming:** Advanced data manipulation with tidyverse, statistical modeling, and creation of publication-quality graphics using ggplot2.
+-   **Genome Assembly:** Implementation of tools such as SPAdes, MEGAHIT, and quality assessment with QUAST.
+-   **Taxonomic Classification:** Utilization of Kraken2 and Bracken for taxonomic profiling of metagenomic samples.
+-   **Functional Annotation:** Application of Prokka, eggNOG-mapper, and antiSMASH for gene prediction and metabolite identification.
+-   **Workflow Management:** Development of reproducible pipelines using Bash scripting and documentation best practices.
+:::
+
+<br>
+
+## Impact and Results
+
+::: {align="justify"}
+This internship provided me with hands-on experience in applied bioinformatics within the agricultural biotechnology sector. The standardized pipeline I developed has been instrumental in accelerating the discovery of novel microbial metabolites, contributing to Betterlab's research and development objectives. Furthermore, this experience solidified my interest in computational biology and its applications in sustainable agriculture and environmental sciences.
+:::
+
+<br>
+
+::: {style="text-align: center;"}
+<img src="Constancia_ANDRES_ARREDONDO_CRUZ.png" alt="Certificate" width="300"/>
+
+<p style="margin-top: 10px; font-style: italic;">
+
+Certificate
+
+</p>
+:::
+::::::::::::
