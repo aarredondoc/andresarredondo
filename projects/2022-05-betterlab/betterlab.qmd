@@ -2,7 +2,7 @@
 title: "Betterlab: Bioinformatics Internship in Agricultural Biotechnology"
 author: "Andrés Arredondo"
 format: html
-image: betterlab_main.jpeg
+image: betterlab_main.png
 categories:
   - Metagenomics
   - Genomics
