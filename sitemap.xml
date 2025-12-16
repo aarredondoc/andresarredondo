@@ -2,38 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://aarredondoc.github.io/andresarredondo/about.html</loc>
-    <lastmod>2025-01-22T00:25:45.231Z</lastmod>
+    <lastmod>2025-12-15T22:56:17.836Z</lastmod>
   </url>
   <url>
     <loc>https://aarredondoc.github.io/andresarredondo/blog/posts/2025-01-21_roxygen2/2023-06-09-documentacion-func/index.html</loc>
-    <lastmod>2025-01-17T19:16:35.857Z</lastmod>
+    <lastmod>2025-12-15T22:56:17.838Z</lastmod>
   </url>
   <url>
     <loc>https://aarredondoc.github.io/andresarredondo/index.html</loc>
-    <lastmod>2025-01-22T00:25:11.498Z</lastmod>
+    <lastmod>2025-12-15T22:56:17.839Z</lastmod>
   </url>
   <url>
     <loc>https://aarredondoc.github.io/andresarredondo/projects/index.html</loc>
-    <lastmod>2025-01-21T22:10:46.977Z</lastmod>
+    <lastmod>2025-12-15T22:56:17.847Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aarredondoc.github.io/andresarredondo/projects/2025-08-DLI/DLI_course.html</loc>
+    <lastmod>2025-12-16T00:12:15.414Z</lastmod>
   </url>
   <url>
     <loc>https://aarredondoc.github.io/andresarredondo/contact/index.html</loc>
-    <lastmod>2025-01-21T21:30:19.355Z</lastmod>
+    <lastmod>2025-12-15T22:56:17.838Z</lastmod>
   </url>
   <url>
     <loc>https://aarredondoc.github.io/andresarredondo/projects/2025-01-21-magenta/magenta.html</loc>
-    <lastmod>2025-01-22T00:23:00.322Z</lastmod>
+    <lastmod>2025-12-15T22:56:17.846Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aarredondoc.github.io/andresarredondo/projects/2022-05-betterlab/betterlab.html</loc>
+    <lastmod>2025-12-15T22:54:15.813Z</lastmod>
   </url>
   <url>
     <loc>https://aarredondoc.github.io/andresarredondo/projects/2023-12-15-metaevomining/index.html</loc>
-    <lastmod>2025-01-21T22:15:02.338Z</lastmod>
+    <lastmod>2025-12-15T22:56:17.845Z</lastmod>
   </url>
   <url>
     <loc>https://aarredondoc.github.io/andresarredondo/blog/posts/2025-01-21_roxygen2/roxygen2.html</loc>
-    <lastmod>2025-01-21T17:56:52.045Z</lastmod>
+    <lastmod>2025-12-15T22:56:17.838Z</lastmod>
   </url>
   <url>
     <loc>https://aarredondoc.github.io/andresarredondo/blog/index.html</loc>
-    <lastmod>2025-01-21T17:26:16.684Z</lastmod>
+    <lastmod>2025-12-15T22:56:17.837Z</lastmod>
   </url>
 </urlset>

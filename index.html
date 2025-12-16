@@ -69,7 +69,9 @@ ul.task-list li input[type="checkbox"] {
 
 <meta name="twitter:title" content="Hi! I’m Andrés Arredondo">
 <meta name="twitter:description" content="Bachelor’s degree in Agrogenomic Sciences with experience in programming languages, specifically R and Bash.">
-<meta name="twitter:image" content="Logo_web.png">
+<meta name="twitter:image" content="https://aarredondoc.github.io/andresarredondo/Logo_web.png">
+<meta name="twitter:image-height" content="500">
+<meta name="twitter:image-width" content="500">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -302,7 +304,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/aarredondoc\.github\.io\/andresarredondo\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

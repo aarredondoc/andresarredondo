@@ -46,7 +46,56 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "Betterlab: Bioinformatics Internship in Agricultural Biotechnology\n\n\n\nMetagenomics\n\n\nGenomics\n\n\nBiotechnology\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMagenta: Building a global mangrove database\n\n\n\nMetagenomics\n\n\nDatabases\n\n\n\n\n\n\n\n\n\n\n\n\nMetaEvoMining Package\n\n\n\nR\n\n\nTool\n\n\n\n\nJan 17, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Betterlab: Bioinformatics Internship in Agricultural Biotechnology\n\n\n\nMetagenomics\n\n\nGenomics\n\n\nBiotechnology\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMagenta: Building a global mangrove database\n\n\n\nMetagenomics\n\n\nDatabases\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Certification: Fundamentals of Deep Learning by NVIDIA\n\n\n\nDeep Learning\n\n\nArtificial Intelligence\n\n\nComputer Vision\n\n\n\n\n\n\n\n\n\n\n\n\nMetaEvoMining Package\n\n\n\nR\n\n\nTool\n\n\n\n\nJan 17, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/2025-08-DLI/DLI_course.html",
+    "href": "projects/2025-08-DLI/DLI_course.html",
+    "title": "New Certification: Fundamentals of Deep Learning by NVIDIA",
+    "section": "",
+    "text": "I successfully completed the Fundamentals of Deep Learning course offered by NVIDIA, an intensive hands-on program focused on the core concepts and practical implementation of deep learning models accelerated with GPU computing."
+  },
+  {
+    "objectID": "projects/2025-08-DLI/DLI_course.html#course-gallery",
+    "href": "projects/2025-08-DLI/DLI_course.html#course-gallery",
+    "title": "New Certification: Fundamentals of Deep Learning by NVIDIA",
+    "section": "Course Gallery",
+    "text": "Course Gallery\n\n\n\n\nModel training workflow\n\n\n\n\n\nTrained a convolutional neural network on the MNIST dataset\n\n\n\n\n\nFinal project development"
+  },
+  {
+    "objectID": "projects/2025-08-DLI/DLI_course.html#key-learning-objectives",
+    "href": "projects/2025-08-DLI/DLI_course.html#key-learning-objectives",
+    "title": "New Certification: Fundamentals of Deep Learning by NVIDIA",
+    "section": "Key Learning Objectives",
+    "text": "Key Learning Objectives\n\nThe main objectives of this course included:\n\nNeural Network Fundamentals: Understanding the mechanics of neural networks, loss functions, and optimization through backpropagation.\nComputer Vision: Training convolutional neural networks (CNNs) for image classification tasks.\nData Augmentation: Improving model generalization through augmentation techniques.\nTransfer Learning: Fine-tuning pre-trained models to solve specific tasks efficiently.\nLarge Language Models (LLMs): Introduction to the use of large language models for text-based question answering.\nGPU Acceleration: Leveraging NVIDIA GPUs to speed up model training and inference."
+  },
+  {
+    "objectID": "projects/2025-08-DLI/DLI_course.html#technical-skills-developed",
+    "href": "projects/2025-08-DLI/DLI_course.html#technical-skills-developed",
+    "title": "New Certification: Fundamentals of Deep Learning by NVIDIA",
+    "section": "Technical Skills Developed",
+    "text": "Technical Skills Developed\n\nDuring the course, I strengthened my skills in:\n\nDeep Learning with Python: Model development and training using modern deep learning frameworks.\nConvolutional Neural Networks (CNNs): Design and optimization of architectures for image-based tasks.\nTransfer Learning: Feature extraction and fine-tuning of pre-trained networks.\nData Generation: Building data generators to expand small datasets and improve model robustness.\nModel Evaluation: Assessing performance and improving models through iterative refinement."
+  },
+  {
+    "objectID": "projects/2025-08-DLI/DLI_course.html#final-project",
+    "href": "projects/2025-08-DLI/DLI_course.html#final-project",
+    "title": "New Certification: Fundamentals of Deep Learning by NVIDIA",
+    "section": "Final Project",
+    "text": "Final Project\n\nAs part of the final assessment, I trained a deep learning model to classify fresh and rotten fruit from images. The objective was to achieve a minimum validation accuracy of 92%, requiring the application of skills developed throughout the course. To meet this requirement, I implemented transfer learning, data augmentation, and model fine-tuning to improve performance and generalization from a limited dataset.\nOnce the model reached the required accuracy, it was saved and evaluated on a validation dataset, reinforcing best practices in model assessment, reproducibility, and optimization."
+  },
+  {
+    "objectID": "projects/2025-08-DLI/DLI_course.html#impact-and-takeaways",
+    "href": "projects/2025-08-DLI/DLI_course.html#impact-and-takeaways",
+    "title": "New Certification: Fundamentals of Deep Learning by NVIDIA",
+    "section": "Impact and Takeaways",
+    "text": "Impact and Takeaways\n\nThis course strengthened my ability to apply deep learning techniques in research-oriented environments and reinforced my interest in integrating artificial intelligence into scientific workflows. The hands-on nature of the training, combined with GPU-accelerated computing, provided practical experience directly applicable to data-driven research in biology, agriculture, and beyond."
+  },
+  {
+    "objectID": "contact/index.html",
+    "href": "contact/index.html",
+    "title": "Contact Information",
+    "section": "",
+    "text": "You can find me online or reach out via e-mail:\n\nE-mail: andres.arredondoc@comunidad.unam.mx\nE-mail: andresabstract@gmail.com\nProfessional License: 14665861"
   },
   {
     "objectID": "projects/2025-01-21-magenta/magenta.html",
@@ -68,13 +117,6 @@
     "title": "Magenta: Building a global mangrove database",
     "section": "Geography",
     "text": "Geography\nMAGENTA leveraged publicly available metagenomic datasets of mangrove ecosystems sourced from the European Nucleotide Archive. In its analysis, MAGENTA systematically excluded incomplete or inconsistent datasets, resulting in 71 pairs of sequencing files derived from seven distinct studies, spanning 12 geographic locations across three countries: China, India, and the United States.\nLink to the Interactive Magenta Datasets Map: \n\n\n\n\nMagenta Datasets Information\n\n\n\n\nFor more information about the code and data, please visit Erika’s repository: \nhttps://github.com/ErikaCL/Magenta.git"
-  },
-  {
-    "objectID": "contact/index.html",
-    "href": "contact/index.html",
-    "title": "Contact Information",
-    "section": "",
-    "text": "You can find me online or reach out via e-mail:\n\nE-mail: andres.arredondoc@comunidad.unam.mx\nE-mail: andresabstract@gmail.com\nProfessional License: 14665861"
   },
   {
     "objectID": "projects/2022-05-betterlab/betterlab.html",
