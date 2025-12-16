@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Andrés Arredondo">
 
-<title>Andrés Arredondo Cruz</title>
+<title>Signaling Metabolites in Transcriptional Regulation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +24,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7103d233151d05af549901d5c456ee0f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-7103d233151d05af549901d5c456ee0f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,93 +67,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-blog .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-blog'] = new List('listing-blog', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-project .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-project'] = new List('listing-project', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -164,10 +78,10 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./Logo_web.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../Logo_web.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Andrés Arredondo</span>
     </a>
   </div>
@@ -178,19 +92,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog/index.html"> 
+    <a class="nav-link" href="../../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects/index.html"> 
+    <a class="nav-link" href="../../projects/index.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact/index.html"> 
+    <a class="nav-link" href="../../contact/index.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -210,143 +124,199 @@ window.Quarto = {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
-
-
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="foto2.png" class="about-image
-  rounded " style="width: 14em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Andrés Arredondo Cruz</h1>
-<p class="subtitle lead">Agri-genomics BSc</p>
-</div>
+<h1 class="title">Signaling Metabolites in Transcriptional Regulation</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Metabolomics</div>
+    <div class="quarto-category">Transcriptomics</div>
+    <div class="quarto-category">Regulatory Networks</div>
+    <div class="quarto-category">Systems Biology</div>
+  </div>
+  </div>
+
+
+
 <div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Andrés Arredondo </p>
+          </div>
   </div>
+    
+  
+    
+  </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="https://twitter.com" class="about-link" rel="" target="">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">Twitter</span>
-  </a>
-  <a href="https://github.com" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><div id="hero-heading">
-<section id="im-happy-youre-here" class="level2">
-<h2 data-anchor-id="im-happy-youre-here">I’m happy you’re here!</h2>
-<p>Thanks for stopping by.</p>
-<p>I am a Bachelor in Agrogenomic Sciences with experience in data analysis, particularly biological sequencing data. I am currently a fellow at C3 Idea, where I contribute to projects involving application development for the Virtual Mathematics Museum (MUMAT) at UNAM.</p>
-<p>I enjoy working with R as a programming language, especially for data analysis and designing tools such as web pages. I also use Bash for scripting bioinformatics pipelines.</p>
-<div style="text-align: left; margin-top: 20px;">
-<p><a href="Andres_cv.pdf" class="btn btn-primary" download=""> Download My CV </a></p>
-</div>
-</section>
-</div></div>
-</div>
 
-<section id="about-me" class="level4">
-<h4 data-anchor-id="about-me">About me</h4>
-<div class="grid">
-<div id="about-me-1" class="g-col-6">
-<p>My main interests lie in microbiology, microbiomes, and how they connect through metagenomics and biostatistics. I am the developer of an R package called Metaevomining, designed for genomic mining.</p>
-<p>I am passionate about microbial diversity, data analysis, and building biological databases. Beyond research, I enjoy contributing to science communication, agriculture, and education, as well as organizing bioinformatics workshops with RSG Mexico.</p>
-<section id="education" class="level4">
-<h4 data-anchor-id="education">Education</h4>
-<p><strong>Escuela Nacional de Estudios Superiores León, UNAM</strong> | León, Guanajuato<br>
-B.Sc. in Agrogenomic Sciences | Graduated: 2020</p>
+
+<div style="text-align: center;">
+<p><img src="project_main.png" alt="Metabolomics and transcriptional regulation" width="800"></p>
+</div>
+<div data-align="right">
+<p><br></p>
+<section id="integrating-metabolomics-and-transcriptomics-to-uncover-regulatory-signals" class="level3">
+<h3 class="anchored" data-anchor-id="integrating-metabolomics-and-transcriptomics-to-uncover-regulatory-signals">Integrating metabolomics and transcriptomics to uncover regulatory signals</h3>
+<p><br></p>
 </section>
 </div>
-<div id="about-me-2" class="g-col-6">
-<section id="work-experience" class="level4">
-<h4 data-anchor-id="work-experience">Work Experience</h4>
-<p><strong>C3</strong> | <em>Virtual</em><br>
-Professional Practices<br>
-<strong>jan-2024</strong> to <strong>present</strong><br>
-- Development of an app for The Mathematics Museum <a href="https://mumat.matcuer.unam.mx/#intro">MUMAT</a>.<br>
-- Content reviewer for media.</p>
-<p><strong>Betterlab</strong> | <em>Irapuato, Guanajuato</em><br>
-Metagenomic Data Analyst<br>
-<strong>may-2022</strong> to <strong>may-2023</strong><br>
-- Implementation of software for metagenomic data analysis.<br>
-- Conducted courses on DNA extraction and PCR.<br>
-- Developed a protocol for the discovery of natural products.</p>
-</section>
+<div data-align="justify">
+<p>This project aimed to identify <strong>signaling metabolites involved in transcriptional regulation</strong> by integrating <strong>metabolomic and transcriptomic data</strong>. The main model system was <em>Escherichia coli</em>, used as a reference regulatory network, with a conceptual extension toward <strong>symbiotic regulation in <em>Rhizobium phaseoli</em>–<em>Phaseolus vulgaris</em></strong>.</p>
+<p>The central hypothesis was that <strong>metabolites correlated with transcription factor (TF) activity</strong> can be detected through ranked metabolite–gene correlations and contextualized using <strong>pathway enrichment analysis (PEA)</strong>. This approach enables the systematic discovery of metabolite–TF–gene relationships under physiologically relevant conditions.</p>
 </div>
-</div>
-</section>
-<section id="academic-professional-timeline" class="level3">
-<h3 data-anchor-id="academic-professional-timeline">Academic &amp; Professional Timeline</h3>
+<section id="project-gallery" class="level2">
+<h2 class="anchored" data-anchor-id="project-gallery">Project Gallery</h2>
+<div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; gap: 20px;">
 <div style="text-align: center; margin-top: 1.5rem;">
-<p><img src="timeline_experience.png" alt="Timeline of academic and professional experience" style="max-width: 90%;"></p>
+<p><img src="corr.png" alt="correlation" width="300"></p>
 </div>
-<!-- hero-heading -->
+<div style="text-align: center; margin-top: 1.5rem;">
+<p><img src="enrichment.png" alt="enrichment" width="300"></p>
+</div>
+<div style="text-align: center; margin-top: 1.5rem;">
+<p><img src="ArgR_mean_corrcopia.png" alt="mean correlations" width="300"></p>
+</div>
+</div>
+<p><br></p>
 </section>
-<div id="about-me-3" class="g-col-6">
-<section id="lately" class="level2">
-<h2 data-anchor-id="lately">Lately …</h2>
-<div id="about-me-4" class="g-col-6">
-<section id="projects" class="level3">
-<h3 data-anchor-id="projects">Projects</h3>
-<div id="listing-project" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="TWV0YWdlbm9taWNzJTJDR2Vub21pY3MlMkNCaW90ZWNobm9sb2d5" data-listing-file-modified-sort="1765839255813" data-listing-reading-time-sort="3" data-listing-word-count-sort="449">
-<a href="./projects/2022-05-betterlab/betterlab.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./projects/2022-05-betterlab/betterlab_main.png" class="thumbnail-image card-img" style="height: 200;">
+<section id="transcription-factors-as-metabolic-sensors" class="level2">
+<h2 class="anchored" data-anchor-id="transcription-factors-as-metabolic-sensors">Transcription Factors as Metabolic Sensors</h2>
+<div data-align="justify">
+<p>Transcription factors (TFs) are regulatory proteins that bind DNA to control gene expression. In bacteria, many TFs also bind <strong>small metabolites</strong>, which act as environmental signals that activate or repress transcription.</p>
+<p>In <em>E. coli</em> K-12, approximately <strong>300 TFs</strong> have been identified, and nearly <strong>50% contain metabolite-binding domains</strong>, suggesting a large number of regulatory interactions remain undiscovered. This regulatory logic provides a powerful framework to explore <strong>signal transduction through metabolism</strong>.</p>
+</div>
+<div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; gap: 20px;">
+<div style="text-align: center; margin-top: 1.5rem;">
+<p><img src="metabolite_interaction_1.png" alt="E. coli regulatory network" width="300"></p>
+</div>
+<div style="text-align: center; margin-top: 1.5rem;">
+<p><img src="metabolite_interaction_2.png" alt="E. coli regulatory network" width="300"></p>
+</div>
+</div>
+</section>
+<section id="objective" class="level2">
+<h2 class="anchored" data-anchor-id="objective">Objective</h2>
+<div data-align="justify">
+<p>To apply and validate the correlation-based framework in <em>E. coli</em> by:</p>
+<ul>
+<li>Ranking metabolites based on their average correlation with TF-regulated genes<br>
+</li>
+<li>Performing pathway enrichment analysis using KEGG compound annotations<br>
+</li>
+<li>Identifying pathways recurrently enriched across multiple transcription factors</li>
+</ul>
+<p>This objective resulted in a prioritized set of metabolic pathways and candidate signaling metabolites linked to transcriptional regulation.</p>
+</div>
+</section>
+<section id="results-overview" class="level2">
+<h2 class="anchored" data-anchor-id="results-overview">Results Overview</h2>
+<p>The pipeline was first applied to a reference dataset involving three well-characterized transcription factors (TFs), each associated with a defined set of regulated genes:</p>
+<ul>
+<li><strong>ArgR</strong><br>
+</li>
+<li><strong>TyrR</strong><br>
+</li>
+<li><strong>CysB</strong></li>
+</ul>
+<p>Subsequently, the same analytical workflow was applied to a <strong>second, independent experiment</strong> involving a broader and more diverse set of transcription factors, including:</p>
+<ul>
+<li><strong>PgrR</strong></li>
+<li><strong>MarA</strong></li>
+<li><strong>DecR</strong></li>
+<li><strong>CecR</strong></li>
+<li><strong>MngR</strong></li>
+<li><strong>MlrA</strong></li>
+<li><strong>MetJ</strong></li>
+<li><strong>Lrp</strong></li>
+<li><strong>Cra</strong></li>
+</ul>
+<p>This step was critical to demonstrate that the pipeline is <strong>transferable across experimental conditions and regulatory contexts</strong>, reinforcing its potential applicability beyond the initial proof-of-concept system.</p>
+<div style="text-align: center; margin-top: 1.5rem;">
+<img src="enrichment.png" alt="E. coli regulatory network" width="520">
+<p style="font-style: italic; margin-top: 0.5rem;">
+Enrichment Analysis of ArgR correlated metabolites
 </p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Betterlab: Bioinformatics Internship in Agricultural Biotechnology
-</h5>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<p><a href="./projects" class="about-links subtitle">See all →</a></p>
-</section>
-<div id="about-me-3" class="g-col-6">
-<section id="blog" class="level3">
-<h3 data-anchor-id="blog">Blog</h3>
-<div id="listing-blog" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="UiUyQ3JveHlnZW4yJTJDVHV0b3JpYWw=" data-listing-date-sort="1691560800000" data-listing-file-modified-sort="1765839377838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1688">
-<a href="./blog/posts/2025-01-21_roxygen2/roxygen2.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 200;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Documentación de funciones con roxygen2
-</h5>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<p><a href="./blog" class="about-links subtitle">See all →</a></p>
-</section>
-</div>
-
-
-
-
 </div>
 </section>
+<section id="key-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="key-outcomes">Key Outcomes</h2>
+<div data-align="justify">
+<ul>
+<li>Systematic ranking of metabolites associated with TF activity<br>
+</li>
+<li>Identification of enriched metabolic pathways linked to transcriptional regulation<br>
+</li>
+<li>Comparative analysis between full databases and experimentally measured metabolites<br>
+</li>
+<li>A scalable computational framework adaptable to non-model organisms</li>
+</ul>
 </div>
+</section>
+<section id="perspectives" class="level2">
+<h2 class="anchored" data-anchor-id="perspectives">Perspectives</h2>
+<div data-align="justify">
+<p><em>Phaseolus vulgaris</em> (common bean) is the most widely consumed grain legume worldwide and the most important legume for human consumption in Mexico. It contributes <strong>22–25% protein content</strong> and represents a substantial fraction of daily protein intake.</p>
+<p>Like most legumes, <em>P. vulgaris</em> establishes a symbiotic association with nitrogen-fixing bacteria, reducing dependence on chemical fertilizers and improving soil fertility.</p>
+</div>
+<div data-align="justify">
+<p>As a perspective, the validated framework can be extrapolated to <em>Rhizobium phaseoli</em>, a symbiotic bacterium associated with <em>Phaseolus vulgaris</em>. By integrating transcriptomic and metabolomic profiles under symbiosis-related conditions, this approach could reveal metabolites involved in early signaling events during nodulation.</p>
+<p>This extension would leverage homology-based regulatory networks and comparative genomics to adapt the <em>E. coli</em> model to a symbiotic context.</p>
+<p>A further perspective is the identification of <strong>symbiosis-specific regulatory mechanisms</strong>, where metabolite–TF interactions drive the expression of genes involved in nodulation and nitrogen fixation.</p>
+<p>By mapping correlated metabolite–gene pairs onto transcriptional networks, this strategy could uncover regulatory signals beyond well-characterized flavonoid–NodD interactions, expanding our understanding of metabolic control in symbiosis.</p>
+</div>
+<div style="text-align: center; margin-top: 1.5rem;">
+<img src="bean_symbiosis_placeholder.png" alt="Bean–Rhizobium symbiosis" width="520">
+<p style="font-style: italic; margin-top: 0.5rem;">
+Symbiotic interaction between Phaseolus vulgaris and Rhizobium spp.
+</p>
+</div>
+</section>
+<section id="academic-context-and-role" class="level2">
+<h2 class="anchored" data-anchor-id="academic-context-and-role">Academic Context and Role</h2>
+<div style="text-align: center; margin-top: 1.5rem;">
+<img src="team.png" alt="E. coli regulatory network" width="520">
+<p style="font-style: italic; margin-top: 0.5rem;">
+Functional regulation lab at CCG, UNAM
+</p>
+</div>
+<div data-align="justify">
+<p>This project was carried out during my research stay at the <strong>Centro de Ciencias Genómicas (CCG–UNAM)</strong> as part of the <strong>Computational Genomics Program</strong>. The work was conducted within the <strong>Laboratory of Functional Regulation in Bacteria</strong>, under the supervision of <strong>Dr.&nbsp;Daniela Ledezma-Tejeida</strong>.</p>
+<p>In particular, my contribution focused on the <strong>application of an already validated computational pipeline</strong> for metabolite–TF association analysis. Rather than developing the methodology from scratch, my work consisted of <strong>deploying, adapting, and evaluating the pipeline across independent experimental datasets</strong>, ensuring its robustness and reproducibility.</p>
+<p>My role in this project was as a <strong>research assistant</strong>, contributing primarily to:</p>
+<ul>
+<li>Computational analysis and pipeline development<br>
+</li>
+<li>Metabolite–gene correlation analysis<br>
+</li>
+<li>Pathway enrichment analysis<br>
+</li>
+<li>Interpretation of results within regulatory network frameworks</li>
+</ul>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<div data-align="justify">
+<p>This project demonstrates how <strong>multi-omics integration</strong> can uncover hidden layers of transcriptional regulation mediated by metabolism. Beyond <em>E. coli</em>, the framework provides a foundation for studying regulatory signaling in symbiotic systems such as <em>Rhizobium–legume</em> interactions, with potential applications in sustainable agriculture and microbial engineering.</p>
+</div>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<ul>
+<li><p>Secretaría de Agricultura y Desarrollo Rural. <em>Estima Agricultura crecimiento de 11.4% de la producción de frijol en 2021</em>.</p></li>
+<li><p>Aguirre-Noyola, J. L., M. Rosenblueth, M. G. Santiago-Martínez, and E. Martínez-Romero. <strong>Transcriptomic Responses of <em>Rhizobium phaseoli</em></strong>** to Root Exudates Reflect Its Capacity to Colonize Maize and Common Bean in an Intercropping System.** <em>Frontiers in Microbiology</em> 12 (2021). <a href="https://doi.org/10.3389/fmicb.2021.740818">https://doi.org/10.3389/fmicb.2021.740818</a>.</p></li>
+<li><p>Martínez, E., R. Palacios, and F. Sánchez. <strong>Nitrogen-fixing nodules induced by <em>Agrobacterium tumefaciens</em></strong>** harboring *****Rhizobium phaseoli***** plasmids.** <em>Journal of Bacteriology</em> 169 (1987): 2828–2834. <a href="https://doi.org/10.1128/jb.169.6.2828-2834.1987">https://doi.org/10.1128/jb.169.6.2828-2834.1987</a>.</p></li>
+<li><p>Hernández-Benítez, Ericka M., Esperanza Martínez-Romero, José Luis Aguirre-Noyola, and Daniela Ledezma-Tejeida. <strong>Putrescine Acts as a Signaling Metabolite in the Transition from Nodulation to Nitrogen Fixation in <em>Rhizobium phaseoli</em>.</strong> <em>bioRxiv</em>, January 29, 2024. <a href="https://doi.org/10.1101/2024.01.29.577838">https://doi.org/10.1101/2024.01.29.577838</a>.</p></li>
+<li><p>Kochanowski, Karl. <strong>Few Regulatory Metabolites Coordinate Expression of Central Metabolic Genes in <em>Escherichia coli</em>.</strong> <em>Molecular Systems Biology</em> (2017).</p></li>
+</ul>
+
+
+</section>
+</div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -369,6 +339,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

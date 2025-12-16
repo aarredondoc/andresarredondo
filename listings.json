@@ -2,9 +2,11 @@
   {
     "listing": "/about.html",
     "items": [
+      "/blog/posts/2025-01-21_roxygen2/roxygen2.html",
       "/projects/2022-05-betterlab/betterlab.html",
       "/projects/2025-01-21-magenta/magenta.html",
       "/projects/2025-08-DLI/DLI_course.html",
+      "/projects/2025-11-metabolite_TF/Functional_regulation.html",
       "/projects/2023-12-15-metaevomining/index.html"
     ]
   },
@@ -14,6 +16,7 @@
       "/projects/2022-05-betterlab/betterlab.html",
       "/projects/2025-01-21-magenta/magenta.html",
       "/projects/2025-08-DLI/DLI_course.html",
+      "/projects/2025-11-metabolite_TF/Functional_regulation.html",
       "/projects/2023-12-15-metaevomining/index.html"
     ]
   },

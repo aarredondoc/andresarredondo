@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://aarredondoc.github.io/andresarredondo/about.html</loc>
-    <lastmod>2025-12-15T22:56:17.836Z</lastmod>
+    <lastmod>2025-12-16T00:43:40.094Z</lastmod>
   </url>
   <url>
     <loc>https://aarredondoc.github.io/andresarredondo/blog/posts/2025-01-21_roxygen2/2023-06-09-documentacion-func/index.html</loc>
@@ -13,24 +13,28 @@
     <lastmod>2025-12-15T22:56:17.839Z</lastmod>
   </url>
   <url>
-    <loc>https://aarredondoc.github.io/andresarredondo/projects/index.html</loc>
-    <lastmod>2025-12-15T22:56:17.847Z</lastmod>
+    <loc>https://aarredondoc.github.io/andresarredondo/projects/2025-11-metabolite_TF/Functional_regulation.html</loc>
+    <lastmod>2025-12-16T03:49:54.374Z</lastmod>
   </url>
   <url>
-    <loc>https://aarredondoc.github.io/andresarredondo/projects/2025-08-DLI/DLI_course.html</loc>
-    <lastmod>2025-12-16T00:12:15.414Z</lastmod>
-  </url>
-  <url>
-    <loc>https://aarredondoc.github.io/andresarredondo/contact/index.html</loc>
-    <lastmod>2025-12-15T22:56:17.838Z</lastmod>
+    <loc>https://aarredondoc.github.io/andresarredondo/projects/2022-05-betterlab/betterlab.html</loc>
+    <lastmod>2025-12-15T22:54:15.813Z</lastmod>
   </url>
   <url>
     <loc>https://aarredondoc.github.io/andresarredondo/projects/2025-01-21-magenta/magenta.html</loc>
     <lastmod>2025-12-15T22:56:17.846Z</lastmod>
   </url>
   <url>
-    <loc>https://aarredondoc.github.io/andresarredondo/projects/2022-05-betterlab/betterlab.html</loc>
-    <lastmod>2025-12-15T22:54:15.813Z</lastmod>
+    <loc>https://aarredondoc.github.io/andresarredondo/contact/index.html</loc>
+    <lastmod>2025-12-15T22:56:17.838Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aarredondoc.github.io/andresarredondo/projects/2025-08-DLI/DLI_course.html</loc>
+    <lastmod>2025-12-16T00:12:15.414Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aarredondoc.github.io/andresarredondo/projects/index.html</loc>
+    <lastmod>2025-12-15T22:56:17.847Z</lastmod>
   </url>
   <url>
     <loc>https://aarredondoc.github.io/andresarredondo/projects/2023-12-15-metaevomining/index.html</loc>
